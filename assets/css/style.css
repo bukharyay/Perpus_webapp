@@ -1,0 +1,55 @@
+/* Template LOGIN */
+
+.bg-perpus {
+    background-image: url('../image/bg-perpus.jpeg');
+    background-size: cover;
+    background-position-y: -11rem;
+}
+
+.card-login {
+    background-color: #f7f7f7;
+    border-radius: 20px;
+}
+
+.card-foto {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.card-foto>img {
+    width: 21rem;
+}
+
+.card-form {
+    padding: 6rem 6rem;
+}
+
+.card-form>form>div.form-group>input {
+    border-radius: 20px;
+    padding: 0.6rem;
+}
+
+.card-form>div.text-center>hr {
+    height: 0.5rem;
+    width: 10rem;
+    color: #bd9a87;
+    margin: auto;
+    opacity: 1;
+}
+
+
+/* End Template LOGIN */
+
+.form-control {
+    border: 1px solid #bd9a87;
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #bd9a87 !important;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(189 154 135 / 70%);
+}
