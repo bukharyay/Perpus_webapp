@@ -1,6 +1,6 @@
 <button class="btn btn-primary my-2">Tambah</button>
 
-<table id="example" class="table table-striped" style="width:100%">
+<table id="example" class="table table-striped" style="white-space:nowrap;" width="100%">
     <thead align="center">
         <tr>
             <th>No</th>
@@ -30,7 +30,7 @@
         <?php endforeach; ?>
 
     </tbody>
-    <tfoot>
+    <tfoot align="center">
         <tr>
             <th>No</th>
             <th>Nama</th>
